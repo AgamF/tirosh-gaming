@@ -1,0 +1,18 @@
+.about-title-container {
+  background: linear-gradient(to top, black, transparent)
+}
+
+.paragraph-div {
+  background: rgb(75, 7, 44);
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#about-title {
+  text-align: center;
+  color: white;
+  font-size: 70px;
+}

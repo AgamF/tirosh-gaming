@@ -1,0 +1,32 @@
+.game-container {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-container h3 {
+  text-align: center;
+}
+
+.game-container .playercard-container {
+  margin: 10px;
+  box-shadow: 10px 10px 15px;
+}
+
+.playercard-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.playercard-container h3 {
+  text-align: center;
+}
+
+.playercard-container img {
+  width: 200px;
+  height: 200px;
+}

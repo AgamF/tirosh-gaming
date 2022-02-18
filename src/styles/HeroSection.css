@@ -1,0 +1,26 @@
+.herosection-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.herosection-container h1 {
+  text-align: center;
+  background: linear-gradient(to top, black, transparent);
+  border-radius: 25px;
+  color: white;
+  font-size: 50px;
+}
+
+.herosection-container button {
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 15px;
+  background: rgb(143, 22, 89);
+  padding: 14px 17px;
+}
+.herosection-container button:hover {
+  cursor: pointer;
+}

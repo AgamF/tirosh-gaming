@@ -1,0 +1,39 @@
+nav {
+  font-family: 'Akaya Telivigala', cursive;
+  color: white;
+  font-size: 30px;
+  background: rgb(75, 7, 44);
+}
+
+.site-title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.site-title h1 { transition: all 0.5s }
+.site-title h1:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.btn-array {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid white;
+}
+
+.btn-array button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  margin: 20px;
+  transition: all 0.5s;
+}
+.btn-array button:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  background: rgb(143, 22, 89);
+}
